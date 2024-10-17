@@ -26,7 +26,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import supabase from "./tech/supabase.png";
+import firebase from "./tech/firebase.png";
+import stripe from "./tech/stripe.png";
+import clerk from "./tech/clerk.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -73,4 +77,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  supabase,
+  firebase,
+  stripe,
+  clerk,
 };

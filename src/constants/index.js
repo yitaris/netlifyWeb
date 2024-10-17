@@ -17,6 +17,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  supabase,
+  firebase,
+  stripe,
+  clerk,
 } from "../assets";
 
 export const navLinks = [
@@ -86,7 +90,23 @@ const technologies = [
     name: "git",
     icon: git,
   },
-];
+  {
+    name: "supabase",
+    icon: supabase,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "stripe",
+    icon: stripe,
+  },
+  {
+    name: "clerk",
+    icon: clerk,
+  },
+]
 
 const experiences = [
   {
