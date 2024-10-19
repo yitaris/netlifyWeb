@@ -16,6 +16,24 @@ export const textVariant = (delay) => {
   };
 };
 
+export const cardMotion = (delay) => {
+  return {
+    hidden: {
+      y: 100,
+      opacity: 0,
+    },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: .5,
+        delay: delay,
+      },
+    },
+  };
+};
+
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {

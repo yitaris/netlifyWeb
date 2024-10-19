@@ -13,6 +13,9 @@ import dijimental from './dijimental.png'
 import yusufKaya from './yusufKaya.png';
 import oguzcanduru from './oguzcanduru.png';
 import emirayaz from './emirayaz.png';
+import redCircle from './redCircle.png';
+import yellowCircle from './yellowCircle.png';
+import greenCircle from './greenCircle.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -81,4 +84,7 @@ export {
   firebase,
   stripe,
   clerk,
+  redCircle,
+  yellowCircle,
+  greenCircle,
 };

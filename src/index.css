@@ -12,6 +12,10 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.card {
+  height: 280px;
+  padding: 20px;
+}
 /* HTML: <div class="loader"></div> */
 .loader {
   width: fit-content;
