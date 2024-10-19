@@ -29,7 +29,7 @@ const Hero2 = () => {
                    "
             >
                 <div className="
-                    w-full md:w-full 
+                    w-full md:w-full xs:w-full
                     lg:w-auto xl:w-auto
                     xs:h-auto sm:h-auto md:h-auto 
                     lg:rounded-[24px]
