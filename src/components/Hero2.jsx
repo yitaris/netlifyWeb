@@ -29,7 +29,7 @@ const Hero2 = () => {
                    "
             >
                 <div className="
-                    w-full md:w-full xs:w-full
+                    w-full
                     lg:w-auto xl:w-auto
                     xs:h-auto sm:h-auto md:h-auto 
                     lg:rounded-[24px]
@@ -54,7 +54,7 @@ const Hero2 = () => {
                             <ToggleSwitch onToggle={handleToggleChange} />
                         </motion.div>
                     </nav>
-                    <div className="flex md:flex-row justify-between sm:flex-column xs:flex-column">
+                    <div className="flex md:flex-row justify-between sm:flex-col xs:flex-col">
                         <div className="flex-1 p-7">
                             <motion.div
                                 variants={textVariant()}
@@ -86,6 +86,7 @@ const Hero2 = () => {
                                 fazla hobi edinmeye çalışan birisiyim...
                             </motion.p>
                         </div>
+                        
                         <div className="flex flex-col flex-1 p-7 justify-between items-center sm:gap-7 xs:gap-7">
                             <div className="flex lg:flex-row gap-7 w-full justify-between xs:flex-col">
                                 <div className="flex flex-row gap-7">
