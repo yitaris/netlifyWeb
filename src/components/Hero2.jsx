@@ -54,7 +54,7 @@ const Hero2 = () => {
                             <ToggleSwitch onToggle={handleToggleChange} />
                         </motion.div>
                     </nav>
-                    <div className="flex md:flex-row justify-between sm:flex-col xs:flex-col">
+                    <div className="flex md:flex-row justify-between sm:flex-column xs:flex-column">
                         <div className="flex-1 p-7">
                             <motion.div
                                 variants={textVariant()}
