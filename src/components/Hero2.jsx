@@ -78,9 +78,7 @@ const Hero2 = () => {
                                     <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
                                     <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
                                 </div>
-                                <div className="gap-7">
                                     <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
-                                </div>
                             </div>
                             <div className="flex flex-row gap-7">
                                     <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
