@@ -18,8 +18,8 @@ const Hero2 = () => {
     return (
         <StyledWrapper>
             <div className="w-full h-screen mx-auto flex flex-col justify-start md:justify-center items-center bg-black-000 container2">
-                <div className="w-full lg:w-auto xl:w-auto xs:h-auto sm:h-auto md:h-auto lg:rounded-[24px]" 
-                     style={{ backgroundColor: isToggled ? '#e8e8e8' : '#1e1e1e' }}>
+                <div className="w-full lg:w-auto xl:w-auto xs:h-auto sm:h-auto md:h-auto lg:rounded-[24px]"
+                    style={{ backgroundColor: isToggled ? '#e8e8e8' : '#1e1e1e' }}>
                     <nav className="py-7 pb-7 flex flex-row justify-between">
                         <motion.div
                             variants={textVariant()}
@@ -40,7 +40,7 @@ const Hero2 = () => {
                     </nav>
 
                     {/* Main Flex Section */}
-                    <div className="flex flex-col md:flex-row justify-between p-7">
+                    <div className="flex flex-col md:flex-row justify-between p-7 gap-7">
                         <div className="flex-1">
                             <motion.div
                                 variants={textVariant()}
@@ -48,11 +48,11 @@ const Hero2 = () => {
                                 animate="show"
                                 className=""
                             >
-                                <p className={`${styles.sectionSubText} text-center md:text-left`} 
-                                   style={{ color: isToggled ? '#1e1e1e' : '#e8e8e8' }}>
+                                <p className={`${styles.sectionSubText} text-center md:text-left`}
+                                    style={{ color: isToggled ? '#1e1e1e' : '#e8e8e8' }}>
                                     Hoşgeldiniz,
                                 </p>
-                                <h2 className={`${styles.sectionHeadText} text-center md:text-left`} 
+                                <h2 className={`${styles.sectionHeadText} text-center md:text-left`}
                                     style={{ color: isToggled ? '#1e1e1e' : '#e8e8e8' }}>
                                     Hakkımda.
                                 </h2>
@@ -64,42 +64,30 @@ const Hero2 = () => {
                                 className='text-secondary text-[17px] max-w-xl leading-[30px] text-center md:text-left'
                                 style={{ color: isToggled ? '#1e1e1e' : '#e8e8e8' }}
                             >
-                               Ben Yiğit, 20 yaşındayım Turkiye'de Sakarya ilçesinde doğdum.
-                               6 yıldır yazılımla uğraşıyorum yazılıma c++ diliyle başladım
-                               şu an bir çok yazılım diline hakim olmaya çalışmaktayım ve
-                               fazla hobi edinmeye çalışan birisiyim...
+                                Ben Yiğit, 20 yaşındayım Turkiye'de Sakarya ilçesinde doğdum.
+                                6 yıldır yazılımla uğraşıyorum yazılıma c++ diliyle başladım
+                                şu an bir çok yazılım diline hakim olmaya çalışmaktayım ve
+                                fazla hobi edinmeye çalışan birisiyim...
                             </motion.p>
                         </div>
 
                         {/* Buttons Section */}
-                        <div className="flex flex-col gap-7 mt-7 md:mt-0 justify-between w-full">
-                            <div className="flex flex-row lg:flex-row gap-7 sm:flex-col xs:flex-col">
-                                <div className="flex flex-row gap-7">
-                                    <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
-                                    <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
-                                </div>
-                                <div className="flex flex-col gap-7">
-                                    <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
-                                </div>
-                            </div>
-                            <div className="flex flex-row gap-7">
-                                    <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
-                                    <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
-                            </div>
+                        <div className="flex flex-1 flex-col gap-7 mt-7 md:mt-0 w-full items-center">
+                            <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
                         </div>
                     </div>
 
                     {/* Cards Section */}
                     <div className="p-7 gap-5 flex flex-col md:flex-row justify-between">
                         <Card Title={'Frontend'}
-                              Text={'Html,Css,Javascript,Tailwind,Bootstrap'}
-                              Icon={html} isToggle={isToggled} Delay={.2} />
+                            Text={'Html,Css,Javascript,Tailwind,Bootstrap'}
+                            Icon={html} isToggle={isToggled} Delay={.2} />
                         <Card Title={'Backend'}
-                              Text={'Node.js,Firebase,Supabase,Clerk'}
-                              Icon={nodejs} isToggle={isToggled} Delay={.4} />
+                            Text={'Node.js,Firebase,Supabase,Clerk'}
+                            Icon={nodejs} isToggle={isToggled} Delay={.4} />
                         <Card Title={'React'}
-                              Text={'Native,Expo'}
-                              Icon={reactjs} isToggle={isToggled} Delay={.6} />
+                            Text={'Native,Expo'}
+                            Icon={reactjs} isToggle={isToggled} Delay={.6} />
                     </div>
                 </div>
             </div>
