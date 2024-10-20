@@ -64,17 +64,28 @@ const Hero2 = () => {
                                 className='text-secondary text-[17px] max-w-xl leading-[30px] text-center md:text-left'
                                 style={{ color: isToggled ? '#1e1e1e' : '#e8e8e8' }}
                             >
-                                Ben Yiğit, 20 yaşındayım Turkiye'de Sakarya ilçesinde doğdum. 6 yıldır yazılımla uğraşıyorum...
+                               Ben Yiğit, 20 yaşındayım Turkiye'de Sakarya ilçesinde doğdum.
+                               6 yıldır yazılımla uğraşıyorum yazılıma c++ diliyle başladım
+                               şu an bir çok yazılım diline hakim olmaya çalışmaktayım ve
+                               fazla hobi edinmeye çalışan birisiyim...
                             </motion.p>
                         </div>
 
                         {/* Buttons Section */}
-                        <div className="flex flex-col sm:flex-row gap-7 mt-7 md:mt-0 items-center justify-between w-full md:w-auto">
-                            <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
-                            <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
-                            <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
-                            <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
-                            <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
+                        <div className="flex flex-col gap-7 mt-7 md:mt-0 justify-between w-full md:w-auto">
+                            <div className="flex md:flex-row gap-7 xs:flex-col">
+                                <div className="flex flex-row gap-7">
+                                    <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
+                                    <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
+                                </div>
+                                <div className="flex flex-row gap-7">
+                                 <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
+                                </div>
+                            </div>
+                            <div className="flex flex-row gap-7">
+                                <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
+                                <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
+                            </div>
                         </div>
                     </div>
 
