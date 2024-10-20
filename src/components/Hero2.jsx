@@ -73,18 +73,18 @@ const Hero2 = () => {
 
                         {/* Buttons Section */}
                         <div className="flex flex-col gap-7 mt-7 md:mt-0 justify-between w-full md:w-auto">
-                            <div className="flex md:flex-row gap-7 xs:flex-col">
+                            <div className="flex md:flex-row gap-7 sm:flex-col xs:flex-col">
                                 <div className="flex flex-row gap-7">
                                     <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
                                     <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
                                 </div>
-                                <div className="flex flex-row gap-7">
-                                 <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
+                                <div className="gap-7">
+                                    <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
                                 </div>
                             </div>
                             <div className="flex flex-row gap-7">
-                                <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
-                                <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
+                                    <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
+                                    <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
                             </div>
                         </div>
                     </div>
