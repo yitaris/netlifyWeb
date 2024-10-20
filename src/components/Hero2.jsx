@@ -72,8 +72,8 @@ const Hero2 = () => {
                         </div>
 
                         {/* Buttons Section */}
-                        <div className="flex flex-col gap-7 mt-7 md:mt-0 justify-between w-full md:w-auto">
-                            <div className="flex flex-row lg:flex-row gap-7 sm:flex-col xs:flex-col w-auto h-auto">
+                        <div className="flex flex-col gap-7 mt-7 md:mt-0 justify-between w-full">
+                            <div className="flex flex-row lg:flex-row gap-7 sm:flex-col xs:flex-col">
                                 <div className="flex flex-row gap-7">
                                     <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
                                     <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
