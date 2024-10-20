@@ -72,8 +72,17 @@ const Hero2 = () => {
                         </div>
 
                         {/* Buttons Section */}
-                        <div className="flex flex-1 flex-col gap-7 mt-7 md:mt-0 w-full items-center">
-                            <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
+                        <div className="flex flex-1 flex-col gap-7 mt-7 md:mt-0 w-full justify-center">
+                            {/* 2-1-2 layout on mobile, 3-2 layout on md and larger */}
+                            <div className="grid grid-cols-2 gap-7 sm:grid-cols-2 xs:grid-cols-2 lg:grid-cols-3 w-full">
+                                <Button Title={'Projelerim'} isToggle={isToggled} Delay={.1} />
+                                <Button Title={'Yeteneklerim'} isToggle={isToggled} Delay={.2} />
+                                <Button Title={'Referanslarım'} isToggle={isToggled} Delay={.3} />
+                            </div>
+                            <div className="grid grid-cols-2 gap-7 sm:grid-cols-2 xs:grid-cols-2 md:grid-cols-2 w-full">
+                                <Button Title={'İletişime Geç'} isToggle={isToggled} Delay={.4} />
+                                <Button Title={'Tecrübelerim'} isToggle={isToggled} Delay={.5} />
+                            </div>
                         </div>
                     </div>
 
